@@ -25,7 +25,7 @@ namespace EJERCICIO4
 
             if (string.IsNullOrWhiteSpace(texto))
             {
-                MessageBox.Show("Por favor, ingresar una palabra.");
+                MessageBox.Show("Favor ingresar una palabra");
                 return;
             }
 
@@ -42,11 +42,11 @@ namespace EJERCICIO4
 
             if (palabra == invertida)
             {
-                MessageBox.Show("La palabra es palíndroma.", "Resultado");
+                MessageBox.Show("La palabra es palíndroma", "Resultado");
             }
             else
             {
-                MessageBox.Show("NO es una palabra palíndroma.", "Resultado");
+                MessageBox.Show("NO es una palabra palíndroma", "Resultado");
             }
         }
 

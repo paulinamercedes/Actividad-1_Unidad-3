@@ -44,7 +44,8 @@ namespace EJERCICIO2
                 timer1.Start();
 
             }
-            private void timer1_Tick(object sender, EventArgs e)
+        
+            private void timer1_Tick(object sender, EventArgs e) //el temporizador
             {
                 if (tiempoTotal > 0)
                 {
